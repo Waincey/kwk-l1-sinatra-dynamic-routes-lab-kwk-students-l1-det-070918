@@ -9,7 +9,7 @@ end
 
 get '/multiply/:number' do 
   @squarenumber = params[:num1].to_i
-  (@num1*@num1).to_s
+  (@num1 * @num1).to_s
 end 
 
 # get '/say/:number/:phrase' do 
