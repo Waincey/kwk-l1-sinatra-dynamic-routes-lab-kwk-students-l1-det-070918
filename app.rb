@@ -12,5 +12,10 @@ get '/multiply/:number' do
   (num1 * num1.to_s)
 end 
 
+get '/say/:number/:phrase' do 
+  @number = 
+  @phrase = 
+  
+end
 
 
